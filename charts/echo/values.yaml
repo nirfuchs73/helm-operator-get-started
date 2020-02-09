@@ -70,6 +70,6 @@ affinity: {}
 
 mongodb:
   port: "3000"
-  loglevel: debug
+  loglevel: info
   persist: ""
   mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG15LW1vbmdvZGI6MjcwMTcvZWNobwo=
