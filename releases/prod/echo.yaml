@@ -15,6 +15,6 @@ spec:
     ref: master
   values:
     image:
-      repository: eu.gcr.io/lustrous-setup-267010/echo:latest
-      # tag: 0.4.11
+      repository: eu.gcr.io/lustrous-setup-267010/echo
+      tag: latest
     replicaCount: 3

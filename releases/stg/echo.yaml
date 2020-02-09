@@ -15,8 +15,8 @@ spec:
     ref: master
   values:
     image:
-      repository: eu.gcr.io/lustrous-setup-267010/echo:latest
-      # tag: stg-9ij63o4c
+      repository: eu.gcr.io/lustrous-setup-267010/echo
+      tag: latest
     replicaCount: 2
     hpa:
       enabled: true

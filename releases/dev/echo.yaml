@@ -15,8 +15,8 @@ spec:
     ref: master
   values:
     image:
-      repository: eu.gcr.io/lustrous-setup-267010/echo:latest
-      # tag: dev-hdtwcel9
+      repository: eu.gcr.io/lustrous-setup-267010/echo
+      tag: latest
     replicaCount: 1
     hpa:
       enabled: false
