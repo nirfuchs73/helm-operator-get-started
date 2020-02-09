@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: eu.gcr.io/lustrous-setup-267010/echo
-      tag: 1.0.4
+      tag: 1.0.5
     replicaCount: 1
     hpa:
       enabled: true
