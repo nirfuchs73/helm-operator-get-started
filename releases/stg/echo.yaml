@@ -17,7 +17,7 @@ spec:
     image:
       repository: eu.gcr.io/lustrous-setup-267010/echo
       tag: latest
-    replicaCount: 2
+    replicaCount: 1
     hpa:
       enabled: true
       maxReplicas: 10
