@@ -20,6 +20,7 @@ spec:
     replicaCount: 1
     mongodb:
       dbname: "echo-staging"
+      mongodburl: mongodb://echouser:password123@mongodb.db:27017/echo-staging
     hpa:
       enabled: true
       maxReplicas: 10
