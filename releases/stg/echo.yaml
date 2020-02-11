@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: nirfuchs73/echo
-      tag: staging-7af7701
+      tag: staging-1d9ab63
     replicaCount: 1
     hpa:
       enabled: true
