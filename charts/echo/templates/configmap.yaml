@@ -7,4 +7,5 @@ data:
   PORT: "{{ .Values.mongodb.port }}"
   LOGLEVEL: "{{ .Values.mongodb.loglevel }}"
   PERSIST: "{{ .Values.mongodb.persist }}"
+  DBNAME: "{{ .Values.mongodb.dbname }}"
 {{ end }}
