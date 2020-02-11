@@ -72,6 +72,6 @@ affinity: {}
 mongodb:
   port: "3000"
   loglevel: debug
-  persist: ""
-  dbname: echo
+  persist: "true"
+  dbname: "echo"
   mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG1vbmdvZGI6MjcwMTcvZWNobwo=
