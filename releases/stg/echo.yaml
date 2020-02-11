@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: nirfuchs73/echo
-      tag: staging-1d9ab63
+      tag: staging-7cbf398
     replicaCount: 1
     mongodb:
       dbname: "echo-staging"
