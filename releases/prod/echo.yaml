@@ -16,5 +16,5 @@ spec:
   values:
     image:
       repository: nirfuchs73/echo
-      tag: 1.0.0
+      tag: 1.0.8
     replicaCount: 1
