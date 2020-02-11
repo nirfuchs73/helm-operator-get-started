@@ -6,7 +6,7 @@ metadata:
   namespace: dev
   annotations:
     fluxcd.io/automated: "true"
-    filter.fluxcd.io/chart-image: glob:*
+    filter.fluxcd.io/chart-image: glob:dev-*
 spec:
   releaseName: echo-dev
   chart:
@@ -15,8 +15,8 @@ spec:
     ref: master
   values:
     image:
-      repository: eu.gcr.io/lustrous-setup-267010/echo
-      tag: 1.0.7
+      repository: nirfuchs73/echo
+      tag: dev-hdtwcel9
     replicaCount: 1
     hpa:
       enabled: false
