@@ -18,6 +18,8 @@ spec:
       repository: nirfuchs73/echo
       tag: staging-1d9ab63
     replicaCount: 1
+    mongodb:
+      dbname: "echo-staging"
     hpa:
       enabled: true
       maxReplicas: 10

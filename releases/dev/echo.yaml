@@ -18,5 +18,7 @@ spec:
       repository: nirfuchs73/echo
       tag: dev-1d9ab63
     replicaCount: 1
+    mongodb:
+      persist: ""
     hpa:
       enabled: false
