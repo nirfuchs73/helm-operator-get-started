@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: nirfuchs73/echo
-      tag: dev-hdtwcel9
+      tag: dev-7af7701
     replicaCount: 1
     hpa:
       enabled: false
