@@ -24,5 +24,8 @@ spec:
       persist: ""
       dbname: "echo"
       mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG1vbmdvZGIuZGI6MjcwMTcvZWNobwo=
+    ingress:
+      hosts:
+        - host: k8s-example-dev.com
     hpa:
       enabled: false

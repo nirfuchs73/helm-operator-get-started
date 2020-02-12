@@ -24,6 +24,9 @@ spec:
       persist: "true"
       dbname: "echo-staging"
       mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG1vbmdvZGIuZGI6MjcwMTcvZWNoby1zdGFnaW5nCg==
+    ingress:
+      hosts:
+        - host: k8s-example-staging.com
     hpa:
       enabled: true
       maxReplicas: 10
