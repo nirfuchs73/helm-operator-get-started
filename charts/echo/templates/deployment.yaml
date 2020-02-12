@@ -19,11 +19,11 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}" 
           ports:
             - containerPort: 3000
-          {{ if eq .Values.mongodb.persist "true" }}
+          # {{ if eq .Values.mongodb.persist "true" }}
           envFrom:
             - configMapRef:
                 name: echo
             - secretRef:
                 name: mongo-uri
-          {{ end }}
+          # {{ end }}
             
