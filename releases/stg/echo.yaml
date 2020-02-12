@@ -19,6 +19,9 @@ spec:
       tag: staging-7cbf398
     replicaCount: 1
     mongodb:
+      port: "3000"
+      loglevel: info
+      persist: "true"
       dbname: "echo-staging"
       mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG1vbmdvZGIuZGI6MjcwMTcvZWNoby1zdGFn
     hpa:

@@ -19,6 +19,10 @@ spec:
       tag: dev-7cbf398
     replicaCount: 1
     mongodb:
+      port: "3000"
+      loglevel: info
       persist: ""
+      dbname: "echo"
+      mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG1vbmdvZGIuZGI6MjcwMTcvZWNobwo=
     hpa:
       enabled: false
