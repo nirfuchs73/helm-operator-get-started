@@ -1,4 +1,4 @@
-{{ if eq .Values.mongodb.persist "true" }}
+# {{ if eq .Values.mongodb.persist "true" }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -8,4 +8,4 @@ data:
   LOGLEVEL: "{{ .Values.mongodb.loglevel }}"
   PERSIST: "{{ .Values.mongodb.persist }}"
   DBNAME: "{{ .Values.mongodb.dbname }}"
-{{ end }}
+# {{ end }}
