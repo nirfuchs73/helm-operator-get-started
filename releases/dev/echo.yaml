@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: nirfuchs73/echo
-      tag: dev-0b702d4
+      tag: dev-a82b7cc
     replicaCount: 1
     mongodb:
       port: "3000"
