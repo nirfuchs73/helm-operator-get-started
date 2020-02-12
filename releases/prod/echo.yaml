@@ -18,3 +18,6 @@ spec:
       repository: nirfuchs73/echo
       tag: 1.0.10
     replicaCount: 1
+    mongodb:
+      dbname: "echo"
+      mongodburl: bW9uZ29kYjovL2VjaG91c2VyOnBhc3N3b3JkMTIzQG1vbmdvZGIuZGI6MjcwMTcvZWNobwo=
