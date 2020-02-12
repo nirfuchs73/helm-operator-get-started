@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: nirfuchs73/echo
-      tag: staging-a82b7cc
+      tag: staging-945a065
     replicaCount: 1
     mongodb:
       port: "3000"
